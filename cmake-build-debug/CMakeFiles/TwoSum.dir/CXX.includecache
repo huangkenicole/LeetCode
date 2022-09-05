@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/huang/CLionProjects/LeetCode/TwoSum.cpp
+iostream
+-
+stdio.h
+-
+string
+-
+map
+-
+unordered_map
+-
+vector
+-
+

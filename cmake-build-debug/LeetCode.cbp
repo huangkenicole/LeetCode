@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LeetCode"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/huang/CLionProjects/LeetCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MoveZeroes">
+				<Option output="/Users/huang/CLionProjects/LeetCode/cmake-build-debug/MoveZeroes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/huang/CLionProjects/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 MoveZeroes"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MoveZeroes/fast">
+				<Option output="/Users/huang/CLionProjects/LeetCode/cmake-build-debug/MoveZeroes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/huang/CLionProjects/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 MoveZeroes/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LeetCode">
+				<Option output="/Users/huang/CLionProjects/LeetCode/cmake-build-debug/LeetCode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/huang/CLionProjects/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeetCode"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LeetCode/fast">
+				<Option output="/Users/huang/CLionProjects/LeetCode/cmake-build-debug/LeetCode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/huang/CLionProjects/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeetCode/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SingleNumber">
+				<Option output="/Users/huang/CLionProjects/LeetCode/cmake-build-debug/SingleNumber" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/huang/CLionProjects/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 SingleNumber"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SingleNumber/fast">
+				<Option output="/Users/huang/CLionProjects/LeetCode/cmake-build-debug/SingleNumber" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/huang/CLionProjects/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 SingleNumber/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/huang/CLionProjects/LeetCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TwoSum">
+				<Option output="/Users/huang/CLionProjects/LeetCode/cmake-build-debug/TwoSum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/huang/CLionProjects/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 TwoSum"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TwoSum/fast">
+				<Option output="/Users/huang/CLionProjects/LeetCode/cmake-build-debug/TwoSum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/huang/CLionProjects/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 TwoSum/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/huang/CLionProjects/LeetCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/huang/CLionProjects/LeetCode/Array/Easy/MoveZeroes.cpp">
+			<Option target="MoveZeroes"/>
+		</Unit>
+		<Unit filename="/Users/huang/CLionProjects/LeetCode/Array/Easy/SingleNumber.cpp">
+			<Option target="SingleNumber"/>
+		</Unit>
+		<Unit filename="/Users/huang/CLionProjects/LeetCode/Array/Easy/TwoSum.cpp">
+			<Option target="TwoSum"/>
+		</Unit>
+		<Unit filename="/Users/huang/CLionProjects/LeetCode/MainTest.cpp">
+			<Option target="LeetCode"/>
+		</Unit>
+		<Unit filename="/Users/huang/CLionProjects/LeetCode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
