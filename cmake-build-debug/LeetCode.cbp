@@ -17,6 +17,100 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/huang/CLionProjects/LeetCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RemoveDuplicatesfromSortedArray">
+				<Option output="/Users/huang/CLionProjects/LeetCode/cmake-build-debug/RemoveDuplicatesfromSortedArray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/huang/CLionProjects/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 RemoveDuplicatesfromSortedArray"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RemoveDuplicatesfromSortedArray/fast">
+				<Option output="/Users/huang/CLionProjects/LeetCode/cmake-build-debug/RemoveDuplicatesfromSortedArray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/huang/CLionProjects/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 RemoveDuplicatesfromSortedArray/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ContainsDuplicate">
+				<Option output="/Users/huang/CLionProjects/LeetCode/cmake-build-debug/ContainsDuplicate" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/huang/CLionProjects/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 ContainsDuplicate"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ContainsDuplicate/fast">
+				<Option output="/Users/huang/CLionProjects/LeetCode/cmake-build-debug/ContainsDuplicate" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/huang/CLionProjects/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 ContainsDuplicate/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="MoveZeroes">
 				<Option output="/Users/huang/CLionProjects/LeetCode/cmake-build-debug/MoveZeroes" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/huang/CLionProjects/LeetCode/cmake-build-debug"/>
@@ -195,19 +289,15 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/huang/CLionProjects/LeetCode/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huang/CLionProjects/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 		</Build>
+		<Unit filename="/Users/huang/CLionProjects/LeetCode/Array/Easy/ContainsDuplicate.cpp">
+			<Option target="ContainsDuplicate"/>
+		</Unit>
 		<Unit filename="/Users/huang/CLionProjects/LeetCode/Array/Easy/MoveZeroes.cpp">
 			<Option target="MoveZeroes"/>
+		</Unit>
+		<Unit filename="/Users/huang/CLionProjects/LeetCode/Array/Easy/RemoveDuplicatesfromSortedArray.cpp">
+			<Option target="RemoveDuplicatesfromSortedArray"/>
 		</Unit>
 		<Unit filename="/Users/huang/CLionProjects/LeetCode/Array/Easy/SingleNumber.cpp">
 			<Option target="SingleNumber"/>

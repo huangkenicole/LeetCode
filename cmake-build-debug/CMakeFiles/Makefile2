@@ -63,6 +63,8 @@ CMAKE_BINARY_DIR = /Users/huang/CLionProjects/LeetCode/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/RemoveDuplicatesfromSortedArray.dir/all
+all: CMakeFiles/ContainsDuplicate.dir/all
 all: CMakeFiles/MoveZeroes.dir/all
 all: CMakeFiles/LeetCode.dir/all
 all: CMakeFiles/SingleNumber.dir/all
@@ -74,11 +76,65 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/RemoveDuplicatesfromSortedArray.dir/clean
+clean: CMakeFiles/ContainsDuplicate.dir/clean
 clean: CMakeFiles/MoveZeroes.dir/clean
 clean: CMakeFiles/LeetCode.dir/clean
 clean: CMakeFiles/SingleNumber.dir/clean
 clean: CMakeFiles/TwoSum.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/RemoveDuplicatesfromSortedArray.dir
+
+# All Build rule for target.
+CMakeFiles/RemoveDuplicatesfromSortedArray.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicatesfromSortedArray.dir/build.make CMakeFiles/RemoveDuplicatesfromSortedArray.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicatesfromSortedArray.dir/build.make CMakeFiles/RemoveDuplicatesfromSortedArray.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/huang/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target RemoveDuplicatesfromSortedArray"
+.PHONY : CMakeFiles/RemoveDuplicatesfromSortedArray.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/RemoveDuplicatesfromSortedArray.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/huang/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/RemoveDuplicatesfromSortedArray.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/huang/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/RemoveDuplicatesfromSortedArray.dir/rule
+
+# Convenience name for target.
+RemoveDuplicatesfromSortedArray: CMakeFiles/RemoveDuplicatesfromSortedArray.dir/rule
+.PHONY : RemoveDuplicatesfromSortedArray
+
+# clean rule for target.
+CMakeFiles/RemoveDuplicatesfromSortedArray.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicatesfromSortedArray.dir/build.make CMakeFiles/RemoveDuplicatesfromSortedArray.dir/clean
+.PHONY : CMakeFiles/RemoveDuplicatesfromSortedArray.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ContainsDuplicate.dir
+
+# All Build rule for target.
+CMakeFiles/ContainsDuplicate.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContainsDuplicate.dir/build.make CMakeFiles/ContainsDuplicate.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContainsDuplicate.dir/build.make CMakeFiles/ContainsDuplicate.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/huang/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target ContainsDuplicate"
+.PHONY : CMakeFiles/ContainsDuplicate.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ContainsDuplicate.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/huang/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ContainsDuplicate.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/huang/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ContainsDuplicate.dir/rule
+
+# Convenience name for target.
+ContainsDuplicate: CMakeFiles/ContainsDuplicate.dir/rule
+.PHONY : ContainsDuplicate
+
+# clean rule for target.
+CMakeFiles/ContainsDuplicate.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContainsDuplicate.dir/build.make CMakeFiles/ContainsDuplicate.dir/clean
+.PHONY : CMakeFiles/ContainsDuplicate.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/MoveZeroes.dir
@@ -87,7 +143,7 @@ clean: CMakeFiles/TwoSum.dir/clean
 CMakeFiles/MoveZeroes.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoveZeroes.dir/build.make CMakeFiles/MoveZeroes.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoveZeroes.dir/build.make CMakeFiles/MoveZeroes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/huang/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target MoveZeroes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/huang/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target MoveZeroes"
 .PHONY : CMakeFiles/MoveZeroes.dir/all
 
 # Build rule for subdir invocation for target.
@@ -113,7 +169,7 @@ CMakeFiles/MoveZeroes.dir/clean:
 CMakeFiles/LeetCode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/huang/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target LeetCode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/huang/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target LeetCode"
 .PHONY : CMakeFiles/LeetCode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -139,7 +195,7 @@ CMakeFiles/LeetCode.dir/clean:
 CMakeFiles/SingleNumber.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SingleNumber.dir/build.make CMakeFiles/SingleNumber.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SingleNumber.dir/build.make CMakeFiles/SingleNumber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/huang/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target SingleNumber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/huang/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target SingleNumber"
 .PHONY : CMakeFiles/SingleNumber.dir/all
 
 # Build rule for subdir invocation for target.
@@ -165,7 +221,7 @@ CMakeFiles/SingleNumber.dir/clean:
 CMakeFiles/TwoSum.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoSum.dir/build.make CMakeFiles/TwoSum.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoSum.dir/build.make CMakeFiles/TwoSum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/huang/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target TwoSum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/huang/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target TwoSum"
 .PHONY : CMakeFiles/TwoSum.dir/all
 
 # Build rule for subdir invocation for target.

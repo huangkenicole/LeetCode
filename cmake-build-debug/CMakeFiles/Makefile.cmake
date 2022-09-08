@@ -50,6 +50,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/RemoveDuplicatesfromSortedArray.dir/DependInfo.cmake"
+  "CMakeFiles/ContainsDuplicate.dir/DependInfo.cmake"
   "CMakeFiles/MoveZeroes.dir/DependInfo.cmake"
   "CMakeFiles/LeetCode.dir/DependInfo.cmake"
   "CMakeFiles/SingleNumber.dir/DependInfo.cmake"

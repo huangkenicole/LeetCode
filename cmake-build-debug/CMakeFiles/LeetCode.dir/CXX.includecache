@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/huang/CLionProjects/LeetCode/MainTest.cpp
+iostream
+-
+stdio.h
+-
+string
+-
+map
+-
+queue
+-
+stack
+-
+vector
+-
+

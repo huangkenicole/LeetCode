@@ -11,9 +11,10 @@ using namespace std;
 const int N=10e4+10;
 #define ll long long;
 
+
 int main()
 {
     Solution solution;
-
+    vector<int>v;
     return 0;
 }

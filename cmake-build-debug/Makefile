@@ -65,16 +65,6 @@ CMAKE_BINARY_DIR = /Users/huang/CLionProjects/LeetCode/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -84,6 +74,16 @@ edit_cache:
 # Special rule for the target edit_cache
 edit_cache/fast: edit_cache
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -115,6 +115,32 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named RemoveDuplicatesfromSortedArray
+
+# Build rule for target.
+RemoveDuplicatesfromSortedArray: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RemoveDuplicatesfromSortedArray
+.PHONY : RemoveDuplicatesfromSortedArray
+
+# fast build rule for target.
+RemoveDuplicatesfromSortedArray/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicatesfromSortedArray.dir/build.make CMakeFiles/RemoveDuplicatesfromSortedArray.dir/build
+.PHONY : RemoveDuplicatesfromSortedArray/fast
+
+#=============================================================================
+# Target rules for targets named ContainsDuplicate
+
+# Build rule for target.
+ContainsDuplicate: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ContainsDuplicate
+.PHONY : ContainsDuplicate
+
+# fast build rule for target.
+ContainsDuplicate/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContainsDuplicate.dir/build.make CMakeFiles/ContainsDuplicate.dir/build
+.PHONY : ContainsDuplicate/fast
 
 #=============================================================================
 # Target rules for targets named MoveZeroes
@@ -168,6 +194,30 @@ TwoSum/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TwoSum.dir/build.make CMakeFiles/TwoSum.dir/build
 .PHONY : TwoSum/fast
 
+Array/Easy/ContainsDuplicate.o: Array/Easy/ContainsDuplicate.cpp.o
+.PHONY : Array/Easy/ContainsDuplicate.o
+
+# target to build an object file
+Array/Easy/ContainsDuplicate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContainsDuplicate.dir/build.make CMakeFiles/ContainsDuplicate.dir/Array/Easy/ContainsDuplicate.cpp.o
+.PHONY : Array/Easy/ContainsDuplicate.cpp.o
+
+Array/Easy/ContainsDuplicate.i: Array/Easy/ContainsDuplicate.cpp.i
+.PHONY : Array/Easy/ContainsDuplicate.i
+
+# target to preprocess a source file
+Array/Easy/ContainsDuplicate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContainsDuplicate.dir/build.make CMakeFiles/ContainsDuplicate.dir/Array/Easy/ContainsDuplicate.cpp.i
+.PHONY : Array/Easy/ContainsDuplicate.cpp.i
+
+Array/Easy/ContainsDuplicate.s: Array/Easy/ContainsDuplicate.cpp.s
+.PHONY : Array/Easy/ContainsDuplicate.s
+
+# target to generate assembly for a file
+Array/Easy/ContainsDuplicate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContainsDuplicate.dir/build.make CMakeFiles/ContainsDuplicate.dir/Array/Easy/ContainsDuplicate.cpp.s
+.PHONY : Array/Easy/ContainsDuplicate.cpp.s
+
 Array/Easy/MoveZeroes.o: Array/Easy/MoveZeroes.cpp.o
 .PHONY : Array/Easy/MoveZeroes.o
 
@@ -191,6 +241,30 @@ Array/Easy/MoveZeroes.s: Array/Easy/MoveZeroes.cpp.s
 Array/Easy/MoveZeroes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoveZeroes.dir/build.make CMakeFiles/MoveZeroes.dir/Array/Easy/MoveZeroes.cpp.s
 .PHONY : Array/Easy/MoveZeroes.cpp.s
+
+Array/Easy/RemoveDuplicatesfromSortedArray.o: Array/Easy/RemoveDuplicatesfromSortedArray.cpp.o
+.PHONY : Array/Easy/RemoveDuplicatesfromSortedArray.o
+
+# target to build an object file
+Array/Easy/RemoveDuplicatesfromSortedArray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicatesfromSortedArray.dir/build.make CMakeFiles/RemoveDuplicatesfromSortedArray.dir/Array/Easy/RemoveDuplicatesfromSortedArray.cpp.o
+.PHONY : Array/Easy/RemoveDuplicatesfromSortedArray.cpp.o
+
+Array/Easy/RemoveDuplicatesfromSortedArray.i: Array/Easy/RemoveDuplicatesfromSortedArray.cpp.i
+.PHONY : Array/Easy/RemoveDuplicatesfromSortedArray.i
+
+# target to preprocess a source file
+Array/Easy/RemoveDuplicatesfromSortedArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicatesfromSortedArray.dir/build.make CMakeFiles/RemoveDuplicatesfromSortedArray.dir/Array/Easy/RemoveDuplicatesfromSortedArray.cpp.i
+.PHONY : Array/Easy/RemoveDuplicatesfromSortedArray.cpp.i
+
+Array/Easy/RemoveDuplicatesfromSortedArray.s: Array/Easy/RemoveDuplicatesfromSortedArray.cpp.s
+.PHONY : Array/Easy/RemoveDuplicatesfromSortedArray.s
+
+# target to generate assembly for a file
+Array/Easy/RemoveDuplicatesfromSortedArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicatesfromSortedArray.dir/build.make CMakeFiles/RemoveDuplicatesfromSortedArray.dir/Array/Easy/RemoveDuplicatesfromSortedArray.cpp.s
+.PHONY : Array/Easy/RemoveDuplicatesfromSortedArray.cpp.s
 
 Array/Easy/SingleNumber.o: Array/Easy/SingleNumber.cpp.o
 .PHONY : Array/Easy/SingleNumber.o
@@ -272,13 +346,21 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ContainsDuplicate"
 	@echo "... LeetCode"
 	@echo "... MoveZeroes"
+	@echo "... RemoveDuplicatesfromSortedArray"
 	@echo "... SingleNumber"
 	@echo "... TwoSum"
+	@echo "... Array/Easy/ContainsDuplicate.o"
+	@echo "... Array/Easy/ContainsDuplicate.i"
+	@echo "... Array/Easy/ContainsDuplicate.s"
 	@echo "... Array/Easy/MoveZeroes.o"
 	@echo "... Array/Easy/MoveZeroes.i"
 	@echo "... Array/Easy/MoveZeroes.s"
+	@echo "... Array/Easy/RemoveDuplicatesfromSortedArray.o"
+	@echo "... Array/Easy/RemoveDuplicatesfromSortedArray.i"
+	@echo "... Array/Easy/RemoveDuplicatesfromSortedArray.s"
 	@echo "... Array/Easy/SingleNumber.o"
 	@echo "... Array/Easy/SingleNumber.i"
 	@echo "... Array/Easy/SingleNumber.s"
